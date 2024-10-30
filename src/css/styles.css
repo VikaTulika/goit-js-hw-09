@@ -16,3 +16,33 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+body {
+padding: 20px;
+}
+
+.gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery-image {
+  width: 240px;
+
+}
+.feedback-form {
+  width: 408px;
+}
+input, textarea {
+  width: 100%;
+}
+button {
+  padding: 8px;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 10px;
+}
